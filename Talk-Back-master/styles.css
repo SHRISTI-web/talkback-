@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+html {
+  background-image: url("background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#app_name {
+  text-align: center; 
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45;
+}
+
+textarea {
+  background-image: url("background.jpg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  margin-bottom: auto;
+  border: 3px solid black;
+}
+
+p {
+color: blue;
+font-size: 24px;
+text-align: center;
+}
+
+#foot{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+#megaman{
+  position: absolute;
+  left: 130px;
+  bottom: 40px;
+}
+
+#speechbubble{
+  position: absolute;
+  left: 300px;
+  bottom: 150px;
+}
+
+#stop_button_div{
+ position: absolute;
+  padding-right: 50%;
+  left: 23.6%;
+  bottom: 22.1%;
+  }
+
+#clear_button_div{
+  position: absolute;
+  padding-right: 50%;
+  left: 23.6%;
+  bottom: 30.1%;
+  }
+
+#stop_button{
+  background-color: red;
+  color: white;
+  height: 50px ;
+  width: 100px ;
+}
+
+#clear_button{
+  background-color: limegreen;
+  color: white;
+  height: 50px ;
+  width: 100px ;
+}
+
+#clear_button:hover {background-color: #3e8e41}
+
+#button:active {
+  background-color: limegreen;
+  box-shadow: 0 50px black;
+  transform: translateY(50px);
+}
+
+#stop_button:hover {background-color: red}
+
+#button:active {
+  background-color: darkred;
+  box-shadow: 0 50px black;
+  transform: translateY(50px);
+}
+
+*::-webkit-input-placeholder {
+    color: black;
+    
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: black;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: black;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: black;
+}
